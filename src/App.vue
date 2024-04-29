@@ -6,8 +6,9 @@
     <!--<CartaoPersonalizado></CartaoPersonalizado>-->
     <NossosServicos></NossosServicos>
     <GoogleMapa></GoogleMapa>
-    <RodapeSite></RodapeSite>    
+    <RodapeSite></RodapeSite>
   </main>
+  <WhatsAppFloating></WhatsAppFloating>
 </template>
 <script>
 
@@ -18,6 +19,7 @@ import SliderPrincipal from './components/SliderPrincipal.vue';
 import NossosServicos from './components/NossosServicos.vue';
 import GoogleMapa from './components/GoogleMapa.vue';
 import RodapeSite from './components/RodapeSite.vue';
+import WhatsAppFloating from './components/WhatsAppFloating.vue';
 export default {
   components: {
     //CartaoPersonalizado,
@@ -26,11 +28,9 @@ export default {
     SliderPrincipal,
     NossosServicos,
     GoogleMapa,
-    RodapeSite
+    RodapeSite,
+    WhatsAppFloating
   }
 }
 </script>
 
-<style>
-
-</style>
