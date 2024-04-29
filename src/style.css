@@ -1,7 +1,7 @@
 
 /* Carousel base class */
 .carousel {
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
   }
   
   /* Since positioning the image, we need to help out the caption */
@@ -61,7 +61,7 @@
     }
   
     .featurette-heading {
-      font-size: 50px;
+      font-size: 40px;
     }
   }
   
@@ -148,3 +148,16 @@
   .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
   }
+  .label {
+    display: flex;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem .25rem;
+}
+.label-text {
+  font-size: .875rem;
+  line-height: 1.25rem;
+}

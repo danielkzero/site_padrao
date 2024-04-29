@@ -40,14 +40,34 @@
             </div>
             <div class="col col-12 col-md-4 my-4">
                 <nav>
-                    <h6 class="footer-title">Contate-nos</h6><label class="label"><span class="label-text"> R. Luíz
+                    <h6 class="footer-title">Contate-nos</h6>
+                    <label class="label">
+                        <span class="label-text"> 
+                            R. Luíz
                             Suzigan, 212
-                            Santa Bárbara D'Oeste - SP </span></label><label class="label"><span class="label-text"> +55
-                            19 2222
-                            2201 </span></label><label class="label"><span class="label-text"> +55 19 98908-5142
-                        </span></label><label class="label"><span class="label-text"> contato@mhjr.com.br
-                        </span></label><label class="label"><span class="label-text"> faça um orçamento:
-                            vendas@mhjr.com.br </span></label>
+                            Santa Bárbara D'Oeste - SP
+                        </span>
+                    </label>
+                    <label class="label">
+                        <span class="label-text"> 
+                            <a href="tel:1922222201">+55 19 2222-2201</a>
+                        </span>
+                    </label>
+                    <label class="label">
+                        <span class="label-text">
+                            <a href="tel:1998985142">+55 19 98908-5142</a>
+                        </span>
+                    </label>
+                    <label class="label">
+                        <span class="label-text">
+                            <a href="mailto:mhjr.injet@gmail.com">mhjr.injet@gmail.com</a>
+                        </span>
+                    </label>
+                    <label class="label">
+                        <span class="label-text">
+                            faça um orçamento: <a href="mailto:mhjr.injet@gmail.com">mhjr.injet@gmail.com</a>
+                        </span>
+                    </label>
                 </nav>
             </div>
         </div>
