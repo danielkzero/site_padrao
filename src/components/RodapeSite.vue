@@ -29,7 +29,7 @@
                         </div>
                         <div class="m-0 p-2">
                             <div class="d-flex align-items-center justify-content-center">
-                                <img src="../assets/imagens/DUNS-150x150.jpg">
+                                <img src="../assets/DUNS-150x150.jpg">
                             </div>
                             <div class="d-flex align-items-center justify-content-center">
                                 <p class="text-center">Empresa com certificado<br> DUNS NUMBER</p>
