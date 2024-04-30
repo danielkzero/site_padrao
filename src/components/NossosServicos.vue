@@ -15,23 +15,23 @@
                         produtos mais
                         comum:
                     </span>
-                <ul role="list" class="">
-                    <li class=""><box-icon name="check" color="green" class="pe-2"></box-icon> Cremalheiras de PVC e PP
+                <ul role="list" class="list-group py-2">
+                    <li class="list-group-item"><box-icon name="check" color="green" class="pe-2"></box-icon> Cremalheiras de PVC e PP
                         injetadas em alma metálica </li>
-                    <li class=""><box-icon name="check" color="green" class="pe-2"></box-icon> Separadores de peças
+                    <li class="list-group-item"><box-icon name="check" color="green" class="pe-2"></box-icon> Separadores de peças
                         Híbridos
                         injetados (PVC/Corpo de aço, PVC/PP, e outros) </li>
-                    <li class=""><box-icon name="check" color="green" class="pe-2"></box-icon> Brushbar </li>
-                    <li class=""><box-icon name="check" color="green" class="pe-2"></box-icon> Barras e cantoneiras
+                    <li class="list-group-item"><box-icon name="check" color="green" class="pe-2"></box-icon> Brushbar </li>
+                    <li class="list-group-item"><box-icon name="check" color="green" class="pe-2"></box-icon> Barras e cantoneiras
                         amortecedoras </li>
-                    <li class=""><box-icon name="check" color="green" class="pe-2"></box-icon> Réguas de PP Injetado
+                    <li class="list-group-item"><box-icon name="check" color="green" class="pe-2"></box-icon> Réguas de PP Injetado
                     </li>
                 </ul>
                 </p>
             </div>
             <div class="col-md-5">
-                <div style="
-                    background-image: url('https://mhjr.com.br/assets/home03-TeZyiQ4C.jpg'); 
+                <div :style="{ 'background-image' :  'url(' + require('../assets/imagens/home03.jpg') + ')' }"
+                style="
                     background-size: auto 500px;
                     background-repeat: no-repeat;
                     background-position: center center;
@@ -57,8 +57,9 @@
                 </p>
             </div>
             <div class="col-md-5 order-md-1">
-                <div style="
-                    background-image: url('https://mhjr.com.br/assets/servi%C3%A7os-de-usinagem-6s7mL15q.png'); 
+                <div 
+                :style="{ 'background-image' :  'url(' + require('../assets/imagens/serviços-de-usinagem.png') + ')' }"
+                style="
                     background-size: auto 500px;
                     background-repeat: no-repeat;
                     background-position: center center;
@@ -85,8 +86,9 @@
                 </p>
             </div>
             <div class="col-md-5">
-                <div style="
-                    background-image: url('https://mhjr.com.br/assets/separador-brush-bar-M7_l7BCo.png'); 
+                <div 
+                :style="{ 'background-image' :  'url(' + require('../assets/imagens/separador-brush-bar.png') + ')' }"
+                style="
                     background-size: 500px auto;
                     background-repeat: no-repeat;
                     background-position: center center;
